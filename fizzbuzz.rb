@@ -7,7 +7,7 @@ def fizzbuzz(number)
     return "Buzz"
   elsif number % 3 && 5 == true
     return "FizzBuzz"
-  elsif number !% 3 && 5 == true
+  elsif number !% 3 && 5
     return "nil"
   end
 end
